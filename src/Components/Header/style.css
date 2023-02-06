@@ -19,7 +19,7 @@ body{
     border-radius: 50px;
 }
 
-.dropdownMenu{
+.dropDownBtn{
  background: none;
  border: none;
  height: 10vh;
@@ -30,7 +30,7 @@ body{
     width: 30px;
  }
 
- .dropdownMenu:active{
+ .dropDownBtn:active{
     opacity: 0.6;
     transition: 0.1s;
     filter: brightness(100%);
@@ -40,3 +40,22 @@ body{
     height: 35px;
     width: 35px;
  }
+
+ .dropDownMenu{
+    padding: 30px;
+    font-size: 16px;
+    background-color: aliceblue;
+    max-width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    right: 0.8vh;
+    top: 8vh;
+    border-radius: 5px;
+}
+
+.dropDownMenu:before{
+    transition: 2s;
+    padding: 10px;
+    font-size: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
