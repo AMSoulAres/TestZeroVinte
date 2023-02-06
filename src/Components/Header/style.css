@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.Header{
+    background-color: rgb(255, 84, 93);
+    font-family: 'Courier New', cursive;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1.5vh;
+    padding-right: 1.5vh;
+}
+
+.logo{
+    height: 13vh;
+    border-radius: 50px;
+}
+
+.dropdownMenu{
+ background: none;
+ border: none;
+ height: 10vh;
+ width: 10vh;
+}
+ #menuIcon{
+    height: 30px;
+    width: 30px;
+ }
+
+ .dropdownMenu:active{
+    opacity: 0.6;
+    transition: 0.1s;
+    filter: brightness(100%);
+ }
+ #menuIcon:active{
+    transition: 0.3s;
+    height: 35px;
+    width: 35px;
+ }
